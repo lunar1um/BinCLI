@@ -7,7 +7,7 @@ INSTALL_DIR="/usr/local/bin"
 
 URL=$(curl -s "https://api.github.com/repos/$REPO/releases/latest" \
   | grep "browser_download_url" \
-  | grep "$BINARY-linux-x86_64" \
+  | grep "$BINARY" \
   | cut -d '"' -f 4)
 
 echo "Downloading $BINARY from $URL"
