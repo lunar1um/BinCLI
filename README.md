@@ -20,3 +20,5 @@ bincli <COMMAND> [OPTIONS]
 
 There are two available commands: `decode`, `encode`.
 For more details, use `bincli --help` or `bincli <command> --help`
+
+P/S: don't blame me, I'm too lazy to make it compatible to windows or macos.
