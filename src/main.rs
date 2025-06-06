@@ -3,7 +3,7 @@ use clap::{Parser, Subcommand, command};
 
 #[derive(Parser)]
 #[command(name = "bincli")]
-#[command(version = "1.0.0")]
+#[command(version = "1.0.1")]
 #[command(override_usage = "bincli <COMMAND> [OPTIONS]")]
 #[command(about = "Translate text ↔ binary from the command line", long_about = None)]
 struct Cli {
