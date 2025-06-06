@@ -63,7 +63,7 @@ fn main() {
             println!("{}", binary);
             if *copy {
                 copy_to_clipboard(&binary);
-                println!("Copied to clipboard!")
+                println!("Copied to clipboard!");
             }
         }
         Commands::Decode { binary, copy } => match binary_to_text(binary) {
@@ -71,7 +71,7 @@ fn main() {
                 println!("{}", text);
                 if *copy {
                     copy_to_clipboard(&text);
-                    println!("Copied to clipboard!")
+                    println!("Copied to clipboard!");
                 }
             }
             Err(e) => println!("Error: {}", e),
