@@ -3,7 +3,7 @@ use clap::{Parser, Subcommand, command};
 
 #[derive(Parser)]
 #[command(name = "bincli")]
-#[command(version = "1.0")]
+#[command(version = "1.0.0")]
 #[command(override_usage = "bincli <COMMAND> [OPTIONS]")]
 #[command(about = "Translate text ↔ binary from the command line", long_about = None)]
 struct Cli {
@@ -63,6 +63,7 @@ fn main() {
             println!("{}", binary);
             if *copy {
                 copy_to_clipboard(&binary);
+                println!("Copied to clipboard!")
             }
         }
         Commands::Decode { binary, copy } => match binary_to_text(binary) {
