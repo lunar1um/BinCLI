@@ -1,13 +1,13 @@
 # BinCLI
  A terminal-based binary translator made with Rust.
 
-# Installation
+## Installation
 Run this command:
 ```bash
 curl -sSL https://raw.githubusercontent.com/Lunarr199/BinCLI/main/install.sh | bash
 ```
 
-# Usage
+## Usage
 ```bash
 bincli <COMMAND> [OPTIONS]
 ```
