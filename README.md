@@ -4,13 +4,13 @@
 ## Installation
 Run this command in your terminal
 ```bash
-curl -sSL https://raw.githubusercontent.com/Lunarr199/BinCLI/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/lunar1um/BinCLI/main/install.sh | bash
 ```
 
 ## Uninstall
 Run this comamnd in your terminal
 ```bash
-curl -sSL https://raw.githubusercontent.com/Lunarr199/BinCLI/main/uninstall.sh | bash
+curl -sSL https://raw.githubusercontent.com/lunar1um/BinCLI/main/uninstall.sh | bash
 ```
 
 ## Usage
